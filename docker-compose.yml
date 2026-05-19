@@ -1,0 +1,18 @@
+services:
+  backend:
+    build: ./backend
+    ports:
+      - "8000:8000"
+    volumes:
+      - db-data:/app/data
+    environment:
+      - BGA_JWT_SECRET=dev-secret-change-in-prod
+      - BGA_CORS_ORIGINS=["http://localhost:5173","http://localhost:3000"]
+
+  webapp:
+    build: ./webapp
+    ports:
+      - "5173:80"
+
+volumes:
+  db-data:
