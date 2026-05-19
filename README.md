@@ -7,9 +7,13 @@
 ## Why We Built This
 
 If you've ever sat around a table (or a screen) playing board games with your friends and thought *"Was that actually a good move?"* — that's exactly where this project started.
+
 Our group plays a lot of board games together. We love the strategy, we love the competition, and we love the post-game arguments about who made the biggest blunder. But here's the thing: for most board games, there's almost no strategy content out there. Chess has engines, opening books, and thousands of YouTube breakdowns. Go has AI analysis tools. But if you're playing Connect Four on a weird 8x9 board, or working through a game of Civilization: A New Dawn, you're pretty much on your own.
+
 We wanted to understand **how individual plays actually affect the outcome of a game** — not just gut feelings, but real positional evaluation that tracks momentum shift by shift, move by move. The kind of thing that lets you look back at a game and say *"This is the exact moment things turned around."*
+
 So we started building a real-time strategy engine. The long-term goal is to use it to create **strategy guides backed by actual analysis** — showing what's proven to work, what the critical decision points are, and what separates a strong play from a weak one, for games that have never had that kind of breakdown before.
+
 That's what this is. It's early. It's a passion project. And we're having a lot of fun with it.
 
 ---
